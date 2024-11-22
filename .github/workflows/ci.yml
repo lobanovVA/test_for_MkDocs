@@ -29,8 +29,3 @@ jobs:
       - name: Get version from tag
         id: get_version
         run: echo "::set-output name=version::$(git describe --tags --abbrev=0)"
-
-      - name: Deploy documentation
-        run: |
-          mike deploy --push --branch=gh-pages ${{ steps.get_version.outputs.version }}
-          mike set-default --push --branch=gh-pages ${{ steps.get_version.outputs.version }}
