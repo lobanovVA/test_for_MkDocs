@@ -13,6 +13,10 @@ HELLOOOOOOO
 
 ## Project layout
 
+<!-- md:version 8.2.0 -->
+<!-- md:plugin [tags] – built-in -->
+<!-- md:flag multiple -->
+
     mkdocs.yml    # The configuration file.
     docs/
         index.md  # The documentation homepage.
