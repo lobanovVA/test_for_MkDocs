@@ -21,3 +21,5 @@ HELLOOOOOOO
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
+Это текст с [подсказкой](# "Текст подсказки появляется здесь").
