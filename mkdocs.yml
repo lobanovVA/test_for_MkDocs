@@ -6,6 +6,12 @@ extra:
   version:
     provider: mike
     latest: latest
+  tags:
+    - id: "8.2.0"
+      name: "8.2.0"
+      description: "February 17, 2022"
+      url: /tags/#8.2.0
+
 theme:
   name: material
   features:
@@ -18,8 +24,10 @@ nav:
   - About:
     - over: a/page2.md
     - under: a/page3.md
+    - tags: tags.md
 
 markdown_extensions:
+  - pymdownx.badges
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -40,4 +48,5 @@ markdown_extensions:
       alternate_style: true
 plugins:
   - mike
-  - tags
+  - tags:
+      tags_file: tags.md
