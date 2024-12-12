@@ -27,7 +27,6 @@ nav:
     - tags: tags.md
 
 markdown_extensions:
-  - pymdownx.badges
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid

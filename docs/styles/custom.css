@@ -6,3 +6,12 @@
     font-weight: bold; /* Выделение активной вкладки */
     color: #007BFF;    /* Цвет активной вкладки */
 }
+.tag {
+    background-color: #1f6feb;
+    color: black;
+    border-radius: 3px;
+    padding: 2px 5px;
+    font-size: 12px;
+    text-decoration: none;
+  }
+  

@@ -1,9 +1,7 @@
-## 8.2.0 (February 17, 2022)
-
-
+[:octicons-tag-24: 8.2.0](changelog/#8.2.0 "February 17, 2022: 
 - Added native support for Mermaid.js diagrams
 - Added native support for tags (with search integration)
-- Added support for staying on page when switching versions
+- Added support for staying on page when switching versions")
 
 # Tags
 
